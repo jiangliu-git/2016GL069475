@@ -1,0 +1,66 @@
+so this is the skeleton of this file 
+
+dimensions:
+
+dim_00051 = 51 ;
+
+dim_00101 = 101 ;
+
+dim_00074 = 74 ;
+
+variables:
+
+float xPole(dim_00101, dim_00051) ;
+
+float yPole(dim_00101, dim_00051) ;
+
+float jPar(dim_00101, dim_00051) ;
+
+float jParDirect(dim_00101, dim_00051) ;
+
+float xEq(dim_00101, dim_00051) ;
+
+float yEq(dim_00101, dim_00051) ;
+
+float jCrossEq(dim_00101, dim_00051) ;
+
+float xMid(dim_00051, dim_00074) ;
+
+float zMid(dim_00051, dim_00074) ;
+
+float jCrossMid(dim_00051, dim_00074) ;
+
+float r21MLT(dim_00051, dim_00074) ;
+
+float z21MLT(dim_00051, dim_00074) ;
+
+float jCross21MLT(dim_00051, dim_00074) ;
+
+float xNoo(dim_00051, dim_00074) ;
+
+float zNoo(dim_00051, dim_00074) ;
+
+float jCrossNoo(dim_00051, dim_00074) ;
+
+float r9MLT(dim_00051, dim_00074) ;
+
+float z9MLT(dim_00051, dim_00074) ;
+
+float jCross9MLT(dim_00051, dim_00074) ;
+
+float jCross(dim_00101, dim_00051, dim_00074) ;
+
+float xFull(dim_00101, dim_00051, dim_00074) ;
+
+float yFull(dim_00101, dim_00051, dim_00074) ;
+float zFull(dim_00101, dim_00051, dim_00074) ;
+
+use the last four elements (jCross, xFull, yFull, ZFull)
+
+the first dimension is azimuthal direction 
+second is radial
+third is the points on one filed line
+
+remember the grid is not uniform
+ 
+Let me know whether you can read the cdf, if not, I'll help to read and give your the txt file.
